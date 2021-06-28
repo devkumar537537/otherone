@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity">
+
+
+
+    <EditText
+        android:id="@+id/useremail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+       android:hint="Enter email"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/userpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="Enter your password"
+         />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogIn"
+       />
+    <Button
+        android:id="@+id/registermovebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        />
+    <EditText
+        android:id="@+id/usernumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:inputType="number"
+
+        android:hint="Enter Number"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="112dp" />
+    <Button
+        android:id="@+id/submintnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submint Number"
+        />
+    <EditText
+        android:id="@+id/otpeditext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:inputType="number"
+
+        android:hint="Enter Otp code"
+      />
+    <Button
+        android:id="@+id/submitotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submint OTP"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebooklogin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        />
+
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/google_sign_inbtn"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:padding="5dp"/>
+<ProgressBar
+    android:id="@+id/progrebasebar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="20dp"
+    android:visibility="gone"
+    android:background="@color/black"/>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginTop="30dp"
+    tools:context=".UserDetail">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="user_email"
+        android:layout_margin="8dp"
+        android:id="@+id/updateemail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="user_number"
+        android:layout_margin="8dp"
+        android:id="@+id/update_user_number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="user_ID"
+        android:layout_margin="8dp"
+        android:id="@+id/update_user_id"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="user_DAte"
+        android:layout_margin="8dp"
+        android:id="@+id/update_user_date"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_btn"
+        android:layout_margin="8dp"
+        android:text="UpdateData"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_btn"
+        android:layout_margin="8dp"
+        android:text="DeleteData"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_progressbar"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

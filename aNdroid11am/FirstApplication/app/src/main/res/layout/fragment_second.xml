@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".fragments.SecondFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phonenumber"
+        android:layout_margin="10dp"
+        android:hint="Enter Your number"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name"
+        android:hint="Enter Your name"
+        android:inputType="text"
+
+        android:layout_below="@+id/phonenumber"
+        android:layout_margin="10dp"
+        />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sendbtn"
+    android:text="LogIn "
+    android:layout_below="@+id/user_name"
+    android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:layout_below="@+id/sendbtn"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movet_To_Fiet"
+        android:text="Move To first"
+        android:layout_below="@+id/textview"
+        android:layout_margin="10dp"/>
+</RelativeLayout>

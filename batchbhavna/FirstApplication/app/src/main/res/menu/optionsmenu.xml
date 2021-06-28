@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/firstitem"
+        android:title="First Item"/>
+    <item android:id="@+id/seconitem"
+        android:title="Second Itme">
+        <menu>
+
+<item android:id="@+id/submentone"
+    android:title="SubMenue"/>
+
+            <item android:id="@+id/submenttwo"
+                android:title="Submenutwo"/>
+
+
+        </menu>
+    </item>
+</menu>

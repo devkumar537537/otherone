@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TelePhony"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:hint="Enter your number"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:id="@+id/usern_number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendCall"
+        android:layout_margin="20dp"
+        android:text="Send Call"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/move_t0_sms"
+        android:layout_margin="20dp"
+        android:text="Move to SMS"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/move_to_email"
+        android:layout_margin="20dp"
+        android:text="Move to Email"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/move_to_share"
+        android:layout_margin="20dp"
+        android:text="share"/>
+
+</LinearLayout>

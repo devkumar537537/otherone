@@ -1,0 +1,2 @@
+rootProject.name = "Googlespreadsheetsample"
+include ':app'

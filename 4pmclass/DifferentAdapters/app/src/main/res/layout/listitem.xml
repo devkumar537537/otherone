@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/arebic"
+    android:scaleType="fitXY"
+    android:id="@+id/imageview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Number"
+        android:textSize="23sp"
+        android:id="@+id/usernumber"
+        android:textColor="#E80B0B"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageview"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click it"
+        android:layout_alignParentRight="true"
+        android:id="@+id/clickbtn"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

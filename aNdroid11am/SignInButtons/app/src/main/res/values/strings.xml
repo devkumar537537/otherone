@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SignInButtons</string>
+    <string name="facebook_app_id">443245576725568</string>
+    <string name="fb_login_protocol_scheme">fb443245576725568</string>
+
+</resources>

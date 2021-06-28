@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/firstOption"
+        android:title="First Option"/>
+    <item android:id="@+id/SecondOption"
+        android:title="SecondOption">
+        <menu>
+            <item android:title="submenufirst"
+                android:id="@+id/submenufirst"/>
+            <item android:title="submentsecond"
+                android:id="@+id/submentsecond"/>
+
+
+
+        </menu>
+
+    </item>
+
+
+
+
+</menu>

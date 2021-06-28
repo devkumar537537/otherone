@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageview_row"
+        android:src="@drawable/naturetwo"
+
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageview_row"
+        android:text="Some Text"
+        android:layout_marginStart="10dp"
+
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/textview_row"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="click"
+    android:layout_alignParentRight="true"
+
+    android:id="@+id/button"/>
+
+</RelativeLayout>

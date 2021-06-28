@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Googleads</string>
+    <string name="admob_app_id">
+ca-app-pub-9534663116211983~9174252090</string>
+    <string name="admob_banner_id">
+ca-app-pub-9534663116211983/4037684914</string>
+</resources>

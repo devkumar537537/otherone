@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/loguutbtn"
+    android:title="Log OUt"/>
+    <item android:id="@+id/updateimagebtnmenu"
+        android:title="Update Image"/>
+    <item android:id="@+id/updateprofile"
+        android:title="My Profile"/>
+</menu>
