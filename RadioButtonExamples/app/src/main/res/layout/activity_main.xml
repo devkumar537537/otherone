@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:id="@+id/questions"
+        android:fontFamily="@font/customgoogle"
+        android:text="How old are You?"
+        android:textColor="#E109E8"
+        android:textSize="25sp" />
+<RadioGroup
+    android:layout_width="match_parent"
+    android:id="@+id/radiogroup"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/first"
+    android:text=" less 18"/>
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/second"
+    android:text="greater 18"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/third"
+        android:text=" less 18"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fourth"
+        android:text="greater 18"/>
+
+</RadioGroup>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Check "
+    android:id="@+id/votingbtn"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right:"/>
+        <TextView
+            android:id="@+id/answerright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+         />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrong"/>
+        <TextView
+            android:id="@+id/answerwrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

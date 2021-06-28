@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/logout"
+    android:title="logout"/>
+    <item android:id="@+id/movetoupload"
+        android:title="Upload Image"/>
+    <item android:id="@+id/mvoetopractic"
+        android:title="Move Practice"/>
+    <item android:id="@+id/notifcation"
+        android:title="Notfication"/>
+</menu>

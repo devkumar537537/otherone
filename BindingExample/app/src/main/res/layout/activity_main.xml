@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+    <data>
+
+        <variable
+            name="userdata"
+            type="com.example.bindingexample.MainViewModel"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/usernemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:hint="Email"
+
+            android:text="@={userdata.email}"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColorHint="#9F9F9F" />
+
+
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usernemail"
+            android:hint="Password"
+            android:text="@={userdata.password}"
+
+            android:singleLine="true"
+            android:textColorHint="#9F9F9F" />
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:text="Login"
+            android:onClick="@{userdata::loginmethod}"
+            android:textColor="#FFFFFF" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login"
+            android:id="@+id/linearlayout"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@={userdata.remeberme}"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember Me"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</layout>

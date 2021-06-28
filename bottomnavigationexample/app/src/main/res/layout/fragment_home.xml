@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentst.Home">
+<DatePicker
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="10dp"
+    android:id="@+id/datepicklayout"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick DAte"
+        android:layout_below="@+id/datepicklayout"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/submitdate"/>
+
+    <TextView
+        android:id="@+id/currentdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitdate"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:textSize="23sp"
+        android:textColor="#C50A0A"
+        android:text="Current date => "/>
+
+</RelativeLayout>

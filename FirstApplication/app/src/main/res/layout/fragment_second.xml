@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/movet_to_first"
+        android:text="move_to_first_fragment" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Value will show "
+        android:textColor="@color/grey"
+        android:layout_above="@id/movet_to_first"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/valuetext"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Value will show "
+android:layout_toRightOf="@id/movet_to_first"
+        android:layout_centerVertical="true"
+
+        android:id="@+id/secomdvalue"/>
+
+</RelativeLayout>
